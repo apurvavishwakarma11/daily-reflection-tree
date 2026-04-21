@@ -1,7 +1,7 @@
 # Daily Reflection Tree
-### DT Fellowship Assignment — Data Analytics Internship
+### DT Fellowship Assignment - Data Analytics Internship
 
-A deterministic end-of-day reflection tool built as a structured decision tree. The tool walks employees through three psychological axes — **Locus of Control**, **Contribution Orientation**, and **Radius of Concern** — using a fully deterministic branching system. No LLM is called at runtime.
+A deterministic end-of-day reflection tool built as a structured decision tree. The tool walks employees through three psychological axes - **Locus of Control**, **Contribution Orientation**, and **Radius of Concern** - using a fully deterministic branching system. No LLM is called at runtime.
 
 ---
 
