@@ -9,18 +9,18 @@ A deterministic end-of-day reflection tool built as a structured decision tree. 
 
 ```
 /tree/
-  reflection-tree.json      ← Part A: Full tree data (40 nodes)
-  tree-diagram.md           ← Part A: Mermaid visual diagram
+  reflection-tree.json      <- Part A: Full tree data (40 nodes)
+  tree-diagram.md           <- Part A: Mermaid visual diagram
 
 /agent/
-  index.html                ← Part B: Runnable web agent (single file, no dependencies)
+  index.html                <- Part B: Runnable web agent (single file, no dependencies)
 
 /transcripts/
-  persona-1-transcript.md   ← External/Entitled/Self-centric path
-  persona-2-transcript.md   ← Internal/Contributing/Altrocentric path
+  persona-1-transcript.md   <- External/Entitled/Self-centric path
+  persona-2-transcript.md   <- Internal/Contributing/Altrocentric path
 
-write-up.md                 ← Part A: Design rationale (2 pages)
-README.md                   ← This file
+write-up.md                 <- Part A: Design rationale (2 pages)
+README.md                   <- This file
 ```
 
 ---
