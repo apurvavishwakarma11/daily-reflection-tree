@@ -43,10 +43,10 @@ The tree is a JSON array of node objects. Each node has:
 
 **To trace a path manually:**
 1. Start at node `START`
-2. For `start`, `reflection`, `bridge`, `end` nodes → follow `target`
-3. For `question` nodes → the employee picks an option; check `DECISION_TRIGGER` map in the agent to find which decision node evaluates this question's answer
-4. For `decision` nodes → match the previous answer against each route's `match` array → follow the matching `target`
-5. For `summary` → tally signals per axis, dominant pole = the one with higher count
+2. For `start`, `reflection`, `bridge`, `end` nodes -> follow `target`
+3. For `question` nodes -> the employee picks an option; check `DECISION_TRIGGER` map in the agent to find which decision node evaluates this question's answer
+4. For `decision` nodes -> match the previous answer against each route's `match` array -> follow the matching `target`
+5. For `summary` -> tally signals per axis, dominant pole = the one with higher count
 
 **Visual diagram:** Open `/tree/tree-diagram.md` in any Mermaid-compatible renderer (GitHub, mermaid.live, VS Code + Mermaid extension).
 
@@ -69,7 +69,7 @@ python3 -m http.server 8080
 **How it works:**
 - The entire tree is embedded as a JavaScript object (mirroring the JSON structure)
 - State is tracked in a plain JS object: `{ answers, signals, stepCount }`
-- All branching is pure lookup — no LLM, no randomness, no external API calls
+- All branching is pure lookup - no LLM, no randomness, no external API calls
 - Given identical answers, the path is always identical
 - Works fully offline
 
@@ -96,7 +96,7 @@ python3 -m http.server 8080
 |---|---|---|
 | 1. Locus | Victim ↔ Victor | Rotter (1966) Locus of Control; Dweck (2006) Growth Mindset |
 | 2. Orientation | Entitlement ↔ Contribution | Campbell et al. (2004); Organ (1988) OCB |
-| 3. Radius | Self-centric ↔ Altrocentric | Maslow (1969) Self-Transcendence; Batson (2011) Perspective-Taking |
+| 3. Radius | Self-centric <-> Altrocentric | Maslow (1969) Self-Transcendence; Batson (2011) Perspective-Taking |
 
 ---
 
@@ -106,7 +106,7 @@ python3 -m http.server 8080
 2. **Fixed options only.** No free text. Options are designed so all feel equally plausible.
 3. **Interpolation, not generation.** Reflection text uses `{NODE_ID}` to reference earlier answers — no LLM required.
 4. **Three axes, one conversation.** Bridges explicitly carry the previous axis's insight into the next.
-5. **Deterministic.** Same answers → same path → same reflection. Always.
+5. **Deterministic.** Same answers -> same path → same reflection. Always.
 
 ---
 
