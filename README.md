@@ -104,7 +104,7 @@ python3 -m http.server 8080
 
 1. **No moralizing.** Every path ends with self-awareness, not judgment.
 2. **Fixed options only.** No free text. Options are designed so all feel equally plausible.
-3. **Interpolation, not generation.** Reflection text uses `{NODE_ID}` to reference earlier answers — no LLM required.
+3. **Interpolation, not generation.** Reflection text uses `{NODE_ID}` to reference earlier answers - no LLM required.
 4. **Three axes, one conversation.** Bridges explicitly carry the previous axis's insight into the next.
 5. **Deterministic.** Same answers -> same path → same reflection. Always.
 
