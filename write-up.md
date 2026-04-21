@@ -27,9 +27,9 @@ The tree uses a **two-stage branching pattern** in each axis:
 
 2. **Stage 2 - Nuanced follow-up:** Deepens the inquiry. For employees already at the growth pole, the follow-up asks for specificity (can you name a concrete moment?). For employees at the challenged pole, the follow-up opens a door toward awareness without forcing them through it.
 
-**Key trade-off:** I chose to keep the tree relatively shallow (2-3 questions per axis) rather than deeply recursive. The reasoning: a 25-30 node tree that flows in 5–7 minutes is actually used; a comprehensive 80-node tree that takes 20 minutes is abandoned by week two. Depth was sacrificed for sustainability.
+**Key trade-off:** I chose to keep the tree relatively shallow (2-3 questions per axis) rather than deeply recursive. The reasoning: a 25-30 node tree that flows in 5-7 minutes is actually used; a comprehensive 80-node tree that takes 20 minutes is abandoned by week two. Depth was sacrificed for sustainability.
 
-**Cross-axis connection:** The bridge nodes are not just transitions - they're designed to linguistically carry the previous axis's insight forward. Bridge 1→2 says *"now let's shift from how you handled things - to what you gave"*, which frames contribution as an active choice (echoing Axis 1's agency). Bridge 2→3 says *"let's zoom out from what you gave to who you were thinking about"*, which naturally extends contribution outward (deepening Axis 3's radius concept).
+**Cross-axis connection:** The bridge nodes are not just transitions - they're designed to linguistically carry the previous axis's insight forward. Bridge 1->2 says *"now let's shift from how you handled things - to what you gave"*, which frames contribution as an active choice (echoing Axis 1's agency). Bridge 2->3 says *"let's zoom out from what you gave to who you were thinking about"*, which naturally extends contribution outward (deepening Axis 3's radius concept).
 
 ---
 
@@ -48,9 +48,9 @@ The tree uses a **two-stage branching pattern** in each axis:
 
 ## What I'd Improve With More Time
 
-1. **Longitudinal state.** Right now the tree has no memory of yesterday. A real deployment would show the employee their Axis 1/2/3 positions over time — surfacing if they've been running on external locus for three weeks, or if their contribution radius has been widening. Patterns are more actionable than single sessions.
+1. **Longitudinal state.** Right now the tree has no memory of yesterday. A real deployment would show the employee their Axis 1/2/3 positions over time - surfacing if they've been running on external locus for three weeks, or if their contribution radius has been widening. Patterns are more actionable than single sessions.
 
-2. **More Axis 3 depth.** The Radius axis currently has fewer branching paths than Axis 1. Self-transcendence is psychologically the most complex of the three - it deserves 3–4 questions exploring not just *who* the employee thought about, but *how* thinking about others changed their decisions. This was trimmed for session length.
+2. **More Axis 3 depth.** The Radius axis currently has fewer branching paths than Axis 1. Self-transcendence is psychologically the most complex of the three - it deserves 3-4 questions exploring not just *who* the employee thought about, but *how* thinking about others changed their decisions. This was trimmed for session length.
 
 3. **Persona testing.** I'd run five distinct employee personas through the tree (the burned-out individual contributor, the ambitious junior, the resentful senior, the genuinely altruistic team lead, the checked-out quiet-quitter) and trace their paths. I suspect Axis 2 needs sharper option language for the quiet-quitter persona - they would likely click "I gave what I had" when the more honest answer is "I gave what was safe."
 
