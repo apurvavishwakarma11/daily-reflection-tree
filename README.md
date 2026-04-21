@@ -94,8 +94,8 @@ python3 -m http.server 8080
 
 | Axis | Spectrum | Key Psychology |
 |---|---|---|
-| 1. Locus | Victim ↔ Victor | Rotter (1966) Locus of Control; Dweck (2006) Growth Mindset |
-| 2. Orientation | Entitlement ↔ Contribution | Campbell et al. (2004); Organ (1988) OCB |
+| 1. Locus | Victim <-> Victor | Rotter (1966) Locus of Control; Dweck (2006) Growth Mindset |
+| 2. Orientation | Entitlement <-> Contribution | Campbell et al. (2004); Organ (1988) OCB |
 | 3. Radius | Self-centric <-> Altrocentric | Maslow (1969) Self-Transcendence; Batson (2011) Perspective-Taking |
 
 ---
